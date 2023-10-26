@@ -1,0 +1,34 @@
+**Documentação do Aplicativo de Localização
+-Descrição
+Este é um aplicativo React Native que usa a API de Geocodificação do Google Maps para obter o endereço completo de uma localização. O aplicativo solicita permissão para acessar a localização do dispositivo, obtém a localização atual, usa a API de Geocodificação do Google Maps para obter o endereço e exibe as informações na tela. O usuário também pode compartilhar sua localização.
+
+-Pré-requisitos
+Node.js e npm instalados em seu sistema.
+Expo CLI instalado globalmente em seu sistema. Você pode instalá-lo usando o comando npm install -g expo-cli.
+Uma chave de API do Google Maps. Você pode obter uma seguindo as instruções na documentação oficial do Google Maps.
+
+-Dependências
+Este aplicativo usa as seguintes bibliotecas:
+react
+react-native
+expo
+expo-location
+expo-sharing
+expo-file-system
+
+-Instalação
+Clone o repositório para o seu sistema.
+Navegue até a pasta do projeto no terminal.
+Execute o comando npm install para instalar todas as dependências necessárias.
+
+-Configuração
+Substitua YOUR_GOOGLE_MAPS_API_KEY no código pelo valor real da sua chave de API do Google Maps.
+
+-Execução
+No terminal, navegue até a pasta do projeto.
+Execute o comando expo start para iniciar o servidor de desenvolvimento.
+Abra o aplicativo Expo Go em seu dispositivo e escaneie o código QR exibido no terminal ou na página da web que se abre automaticamente.
+O aplicativo será carregado em seu dispositivo.
+
+-Uso
+Quando você abre o aplicativo, ele solicita permissão para acessar a localização do dispositivo. Depois de conceder permissão, ele obtém a localização atual e usa a API de Geocodificação do Google Maps para obter o endereço completo. As informações de localização são exibidas na tela. Você pode pressionar o botão “Compartilhar Localização” para compartilhar sua localização.
